@@ -4,6 +4,9 @@ const Users = require('../../../models/Users/model');
 
 module.exports = signup = async (req, res) => {
     // recived data
+
+    console.log('aaaa')
+
     const {username, password} = req.body;
     if (!username || !password) return res.sendStatus(400);
     // valid?

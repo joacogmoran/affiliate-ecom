@@ -11,7 +11,7 @@ import App from './App';
 import './main.css';
 
 // axios
-axios.defaults.baseURL = `https://online-store-api-seven.vercel.app`;
+axios.defaults.baseURL = `http://localhost:3001`;
 axios.defaults.withCredentials = true;
 
 // code

@@ -3,7 +3,6 @@ import axios from "axios";
 // actions
 import { login, logout } from '../../features/authentication/slice';
 import { failureToast, successToast } from '../toasters/actions';
-import { setUser } from "../../features/app/slice";
 
 
 

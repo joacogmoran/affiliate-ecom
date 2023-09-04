@@ -1,5 +1,5 @@
 
-const allowedOrigins = ['https://online-store-client-liart.vercel.app'];
+const allowedOrigins = ['http://localhost:5173'];
 
 const corsOptions = {
     origin: (origin, cb) => {

@@ -41,7 +41,7 @@ server.use(errorHandler);
 database.sync({ force: true }).then(() => {
     console.log('Database conection successfull');
     server.listen(PORT, () => {
-            console.log('server up on port ' + PORT);
+        console.log('server up on port ' + PORT);
     });
 }).catch((err) => {
     console.log(err)
