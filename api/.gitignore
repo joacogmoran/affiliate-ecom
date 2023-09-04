@@ -1,0 +1,38 @@
+
+
+# Dependencies
+/node_modules
+
+# env files
+.env
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Archivos de registro
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+logs
+*.log
+
+# Archivos de construcción
+/build
+/dist
+
+# Dependencias específicas de desarrollo
+/test/node_modules
+/test/npm-debug.log
+
+# Dependencias específicas de producción
+/production/node_modules
+/production/npm-debug.log
+/production/.env
+
+# Archivos y carpetas generados por IDE o editores de texto
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
